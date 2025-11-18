@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open("loan_model.sav", "rb"))
+model = pickle.load(open("loan.sav", "rb"))
 
 st.title("🏦 Loan Prediction App")
 st.write("Enter your Income and Credit Score to predict loan approval.")
